@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: mediumslateblue;
+}
+
+.Login {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.login {
+  color: darkslateblue;
+}
+
+.form {
+  max-width: 330px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.form .form__custom-button {
+  margin-top: 50px;
+  background-color: darkslateblue
+}
